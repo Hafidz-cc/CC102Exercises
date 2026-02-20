@@ -4,13 +4,14 @@ int main(){
     char choice;
     int students=0, quiz=0, score=0, quizz=0;
     double PlaceHold=0.0;
+    do{
         cout<<"enter number of students: ";
         cin>>students;
         cout<<"enter number of quizzes per students: ";
         cin>>quiz;
 
         int StudMatrx[students][quiz];
-        do{
+        
 
         for(int i=0; i<students; i++){
 
@@ -66,3 +67,4 @@ int main(){
 
 return 0;
 }
+
